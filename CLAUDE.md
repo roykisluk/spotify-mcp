@@ -1,6 +1,6 @@
 # spotify-mcp (Roybox/Tools)
 
-Third-party clone of https://github.com/marcelmarais/spotify-mcp-server — **not Roy's repo, never push to its remote.**
+Third-party clone of https://github.com/marcelmarais/spotify-mcp-server, **never push to `upstream`** (that remote). `origin` is Roy's **public** fork `roykisluk/spotify-mcp`: nothing private goes in it.
 Registered as a user-scope stdio MCP server: `node ~/Downloads/Roybox/Tools/spotify-mcp/build/index.js`.
 Credentials live in `spotify-config.json` (gitignored, mode 600). Rebuild after any pull: `npm install && npm run build`.
 
